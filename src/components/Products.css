@@ -1,0 +1,32 @@
+.products {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .products h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .product-item {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .product-item:hover img {
+    transform: scale(1.1);
+  }
+  
